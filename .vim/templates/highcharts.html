@@ -1,0 +1,42 @@
+<script type="text/javascript"src="https://code.highcharts.com/highcharts.js"> </script>
+<script type="text/javascript"src="https://code.highcharts.com/modules/exporting.js"> </script>
+
+<div id="chart" style="min-width: 310px; height: 350px; margin: 0 auto"></div>
+
+<script type="text/javascript">
+	$(function () {
+		chart_data =
+		subtitle = ''
+		Highcharts.chart('chart', {
+			chart: {
+				type: 'line'
+      },
+      title: {
+				text: 'text'
+      },
+			subtitle: {
+				text: subtitle
+      },
+      xAxis: {
+				categories: <input catagories>
+			},
+			yAxis: {
+				title: {
+					text: 'yaxis'
+				}
+      },
+      plotOptions: {
+				line: {
+					enableMouseTracking: false,
+					dataLabels: {
+						enabled: true
+					},
+				}
+      },
+			series: [{
+				name: 'series name',
+				data: <input data>
+			}]
+		});
+	});
+</script>

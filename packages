@@ -13,3 +13,11 @@ chromium-browser
 network-manager-openvpn
 network-manager-openvpn-gnome
 openvpn
+openssh-server
+nodejs
+npm
+curl
+tshark
+nmap
+python-pip
+python-dev

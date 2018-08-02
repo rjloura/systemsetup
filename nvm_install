@@ -5,7 +5,9 @@ function fatal {
 	exit 1
 }
 
-[[ ! -d "~/.nvm" ]] && fatal
+[[ ! -d "${HOME}/.nvm" ]] && fatal
+
+command -v nvm
 nvm install 0.10
 nvm install 0.12
 nvm install 6.11

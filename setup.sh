@@ -7,4 +7,4 @@ echo "############## Done #############"
 
 echo "set -o vi" >> ~/.bashrc
 echo "export PATH=$PATH:~/scripts:~/bin" >> ~/.bashrc
-echo "export PAGER=less"
+echo "export PAGER=less" >> ~/.bashrc

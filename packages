@@ -5,11 +5,9 @@ gcc
 g++
 wireshark
 python3
+virtualenvwrapper
 automake
 hexchat
 thunderbird
 vlc
 chromium-browser
-network-manager-openvpn
-network-manager-openvpn-gnome
-openvpn

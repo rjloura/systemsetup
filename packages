@@ -1,5 +1,4 @@
 vim
-nodejs
 build-essential
 gcc
 g++
@@ -11,3 +10,11 @@ hexchat
 thunderbird
 vlc
 chromium-browser
+openssh-server
+nodejs
+npm
+curl
+tshark
+nmap
+python3-pip
+python3-dev

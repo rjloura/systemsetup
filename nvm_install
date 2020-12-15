@@ -1,0 +1,15 @@
+##See https://github.com/creationix/nvm
+
+function fatal {
+	echo "nvm not installed go to: https://github.com/creationix/nvm"
+	exit 1
+}
+
+[[ ! -d "${HOME}/.nvm" ]] && fatal
+
+command -v nvm
+nvm install 0.10
+nvm install 0.12
+nvm install 6.11
+### also 8.3, 4.8 ?
+
